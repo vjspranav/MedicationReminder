@@ -13,7 +13,6 @@ const LoginScreen = ({ navigation, setLoggedIn }) => {
       return;
     }
     setLoggedIn(true);
-    navigation.navigate("Home");
   };
 
   return (
